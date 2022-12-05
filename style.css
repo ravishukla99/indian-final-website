@@ -1,0 +1,184 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@600&family=Poppins:wght@600;600;600;800&family=Work+Sans:wght@400;500&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+	
+}
+
+:root{
+	--footer: #CFD2CF;
+	--special : #f1b1a9 ;
+
+}
+/*   ==== whatsaap pic ==== */
+.whatsapp-fixed{
+	position: fixed;
+	 margin-right: 150px; 
+	z-index: 1;
+	margin-bottom: 10px;
+	width: 70px;	
+	top: 85%;
+	left: 20px;
+}
+
+/* button */
+.btn-line{
+	border: 2px solid orange;
+	display: inline-block;
+	border-radius: 8px;
+	
+}
+
+.navbar li{
+	font-size: 20px;
+	font-weight: 600;
+	margin-left: 25px;
+}
+.main{
+
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.nav-item{
+font-weight: 600;
+margin-top: 10px;
+font-size: 22px;
+}
+
+.nav-link:hover{
+	
+	text-decoration: underline 2px solid orange;
+	
+	background-color: orange;
+	border-radius: 0px 25px 0px 25px;
+	
+    
+	
+}
+
+.logo{
+	position: relative;
+	left: 55px;
+	top: 25px;
+}
+.menu{
+	position: relative;
+	right: 80px;
+}
+/* ======   contact hover ====== */
+.shado:hover {
+	/* transform: scale(1.1); */
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	transition: all .6s;
+}
+/*     === contact form === */
+.social-img{
+	width: 50px;
+}
+.icon-zoom:hover{
+	transform: scale(1.1);
+	transition: all .6s;
+}
+
+@media(max-width:599px) {
+    .main{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 112px;
+		text-align: center;
+	
+	
+    }
+    .fa-envelope{
+        margin: 10px 0px;
+    }
+    .navbar{
+        flex-direction: column;
+        position: fixed;
+        top: 70px;
+        padding-bottom: 110px;
+    }
+	.gmail{
+		font-size: 17px;
+	}
+	.mobile{
+		font-size: 17px;
+	}
+	.logo{
+		position:inherit;
+		margin-bottom: 20px;
+
+	}
+	.menu{
+		position: inherit;
+	}
+}
+
+
+
+/* Footer  */
+.page-footer{
+	background-color: #7286a1b4;
+}
+.footer-copyright{
+	background-color:#7286a1b4 ;
+	text-decoration: none;
+}
+.footer-copyright a:hover{
+	color:yellow;
+	transition: .6s;
+}
+.scientifiic {
+	color:rgb(34, 169, 34) ;
+	font-weight: 600;
+}
+.indian{
+	color:rgb(181, 119, 5);
+	font-weight: 600;
+}
+.indian-2{
+	color: orangered;
+}
+.decoration{
+	text-decoration: none;
+}
+.decoration:hover{
+ text-decoration: underline;
+}
+
+
+
+@media (min-width:1250px){
+	.res-logo img{
+
+		width: 605px;
+		height: 100px;
+		justify-content: center;
+	}
+}
+
+@media (max-width:650px){
+	.res-logo img{
+
+		width: 555px;
+		height: 105px;
+		justify-content: center;
+	}
+}
+@media (max-width:510px){
+	.res-logo img{
+
+		width: 255px;
+		height: 105px;
+		justify-content: center;
+	}
+}
+
+
+
+
+
