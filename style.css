@@ -24,11 +24,27 @@
 }
 
 /* button */
-.btn-line{
-	border: 2px solid orange;
-	display: inline-block;
-	border-radius: 8px;
+button{
+	background-color: orange;
+	border: none;
 	
+	
+	
+
+}
+button:hover{
+	color: green;
+}
+
+button a{
+	color: white;
+	text-decoration: none;
+
+	
+}
+button a:hover{
+	text-decoration: none;
+	color:green;
 }
 
 .navbar li{
@@ -48,15 +64,18 @@ margin-top: 10px;
 font-size: 22px;
 }
 
-.nav-link:hover{
+/* .nav-link a:hover{
 	
 	text-decoration: underline 2px solid orange;
 	
 	background-color: orange;
 	border-radius: 0px 25px 0px 25px;
-	
     
 	
+} */
+.nav-item a:hover{
+	color:orange;
+	text-decoration: underline;
 }
 
 .logo{
@@ -152,17 +171,17 @@ font-size: 22px;
 
 
 
-@media (min-width:1250px){
-	.res-logo img{
+/* @media (min-width:1250px){
+	.res-logo {
 
-		width: 605px;
+		width: 100vh;
 		height: 100px;
 		justify-content: center;
 	}
 }
 
 @media (max-width:650px){
-	.res-logo img{
+	.res-logo {
 
 		width: 555px;
 		height: 105px;
@@ -170,13 +189,14 @@ font-size: 22px;
 	}
 }
 @media (max-width:510px){
-	.res-logo img{
+	.res-logo{
 
-		width: 255px;
-		height: 105px;
+		width: 100vh;
+		
 		justify-content: center;
+		
 	}
-}
+} */
 
 
 
